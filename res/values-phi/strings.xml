@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Back">Bumalik</string>
+    <string name="CH">Ch</string>
+    <string name="Channels">Channel</string>
+    <string name="Click">Mag-click</string>
+    <string name="Input">Input</string>
+    <string name="OK">OK</string>
+    <string name="VOL">Vol</string>
+    <string name="about_section">Tungkol sa</string>
+    <string name="action_bar_title_about">Tungkol sa Remote Control</string>
+    <string name="action_bar_title_connected_to">Nakakonekta sa %1$s</string>
+    <string name="action_bar_title_connecting">Kumokonekta…</string>
+    <string name="action_bar_title_default">Ang Remote Control ng CodeMatics Android</string>
+    <string name="action_bar_title_no_devices">Hindi nakakonekta ang remote</string>
+    <string name="action_bar_title_no_wifi">Hindi konektado</string>
+    <string name="action_bar_title_pairing_with">Pagpapares sa %1$s</string>
+    <string name="action_bar_title_select">Kumonekta sa Android TV</string>
+    <string name="action_connect">Kumonekta</string>
+    <string name="action_connect_wifi">Kumonekta sa WiFi</string>
+    <string name="action_disconnect">Idiskonekta</string>
+    <string name="action_enable_wifi">I-on ang WiFi</string>
+    <string name="action_string_back_to_remote">Bumalik ka</string>
+    <string name="action_string_connection">Koneksyon</string>
+    <string name="action_string_keyboard">Keyboard</string>
+    <string name="action_string_layout_dpad">D-Pad</string>
+    <string name="action_string_layout_gamepad">Gamepad</string>
+    <string name="action_string_layout_trackpad">Trackpad</string>
+    <string name="action_string_refresh">Refresh</string>
+    <string name="action_string_settingxs">Mga setting</string>
+    <string name="android_dialog_tv_service">"Ang Android TV Remote Service app sa mga Android TV ay na-update ng Google kamakailan. Dahil sa bagong pag-update na ito ang mga malayong app ng TV ay nakakaranas ng mga isyu.
+
+Upang malutas ang mga isyu sa pagkakakonekta sa mga Android TV, Mangyaring sundin ang mga hakbang na ito
+
+ 1> Pumunta sa Mga Setting sa iyong TV
+ 2> Piliin ang Mga App
+ 3> Piliin ang \"Android TV Remote Service\"
+ 4> Piliin ang I-uninstall ang Update
+
+Ang app ay magsisimulang gumana para sa iyo. Huwag mag-atubiling makipag-ugnay sa amin."</string>
+    <string name="appName">CodeMatics Android Smart Remote</string>
+    <string name="app_list_wifi">Lahat ng TV Apps</string>
+    <string name="app_name">Remote Control ng Android</string>
+    <string name="channel_list_wifi">Lahat ng Mga Channel sa TV</string>
+    <string name="close_remote_control">Lumabas sa App</string>
+    <string name="connect_toast">Tiyaking nakakonekta ang iyong TV at mobile device sa parehong WiFi Network</string>
+    <string name="connection_manager_action_disconnect">Idiskonekta</string>
+    <string name="connectivity_issue_title">Solusyon sa Isyu ng Pagkakonekta</string>
+    <string name="content_desc_back_button">bumalik</string>
+    <string name="content_desc_connecting">nag-uugnay</string>
+    <string name="content_desc_down_button">pababa</string>
+    <string name="content_desc_enter_button">pasok</string>
+    <string name="content_desc_home_button">bahay</string>
+    <string name="content_desc_joystick">joystick</string>
+    <string name="content_desc_keyboard_ctrl">paganahin o huwag paganahin ang keyboard</string>
+    <string name="content_desc_left_button">umalis na</string>
+    <string name="content_desc_microphone_button">mikropono</string>
+    <string name="content_desc_mode_switch">lumipat mode mula sa dpad sa trackpad</string>
+    <string name="content_desc_play_pause_button">maglaro / huminto</string>
+    <string name="content_desc_right_button">tama</string>
+    <string name="content_desc_success_icon">tagumpay</string>
+    <string name="content_desc_touchpad">touchpad</string>
+    <string name="content_desc_up_button">pataas</string>
+    <string name="content_desc_wifi_not_connected">Hindi nakakonekta ang WiFi</string>
+    <string name="filter_view_example_gizmos">Remote ng Android TV</string>
+    <string name="fs_select_wifi_TV">Remote ng Smart TV</string>
+    <string name="gallery_casting">Piliin ang item na titingnan sa TV</string>
+    <string name="gto_search_action">Maghanap sa iyong Smart TV Brand</string>
+    <string name="orb_search_action">Pagkilos sa Paghahanap</string>
+    <string name="pairing_cancel">Kanselahin</string>
+    <string name="pairing_explanation">Ipasok ang CODE sa ibaba</string>
+    <string name="pairing_pair">Pares</string>
+    <string name="pairing_pin_hint">0000</string>
+    <string name="pairing_preparing">Paghahanda upang ipares</string>
+    <string name="permission_enable_hint_text">Baguhin ang mga pahintulot sa mga setting ng app ng iyong aparato. Bigyan ang Remote ng access sa Android TV sa Mikropono at Lokasyon.</string>
+    <string name="permission_mic_hint_text_android">Upang magamit ang tampok na paghahanap sa boses, payagan ang pahintulot na \"Android TV Remote\" na mag-record ng audio. Ang pahintulot na ito ay kinakailangan ng mobile operating system</string>
+    <string name="permission_mic_snackbar_button">SETTING</string>
+    <string name="permission_negative_button_text">PALABAS</string>
+    <string name="permission_positive_button_text">SETTING</string>
+    <string name="permission_toast">Kinakailangan ang pahintulot sa pag-iimbak upang ma-access ang mga file ng media para sa Paglalagay ng Layunin</string>
+    <string name="searching_for_devices_ethernet">Ethernet</string>
+    <string name="searching_for_devices_hint">Tiyaking nakakonekta ang Android TV sa parehong WiFi network.</string>
+    <string name="searching_for_devices_on_bluetooth">Naghahanap ng Android TV sa pamamagitan ng Bluetooth…</string>
+    <string name="searching_for_devices_on_network">Mangyaring tiyaking ikonekta ang iyong Android TV at ang iyong Telepono sa parehong WiFi Network</string>
+    <string name="searching_for_devices_on_network_and_bluetooth">Naghahanap ng Android TV sa% 1 $ s at Bluetooth…</string>
+    <string name="searching_for_devices_unknown_wifi">Hindi kilalang Network</string>
+    <string name="searching_for_devices_wifi_off_hint">Dapat mong ikonekta ang Android TV at ang iyong mobile device sa parehong WiFi ....</string>
+    <string name="select_android_title">Piliin ang iyong Android TV</string>
+    <string name="spinner_prompt_wifi">Piliin ang iyong Smart Device</string>
+    <string name="status_connected">Nakakonekta</string>
+    <string name="status_connected_to">Nakakonekta sa %1$s</string>
+    <string name="status_connecting">Kumokonekta</string>
+    <string name="status_disconnected">Nakakonekta</string>
+    <string name="status_unknown">Hindi alam</string>
+</resources>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="codematics.universal.tv.remote.control.demo" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.TRANSMIT_IR" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/icon_full_remote" android:label="Universal TV Remote Control" android:name="codematics.universal.tv.remote.control.app.AppOpenAdsClass" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/icon_full_remote_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <activity android:name="codematics.universal.tv.remote.control._LogoScreen" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="codematics.universal.tv.remote.control.SamsungTV" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:name="codematics.universal.tv.remote.control._Flicky" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.LG_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.SHARP_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Shivaki" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.SabaTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.PalsonicTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Panasonic_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.PHILIPS_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.TCL" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.TataSKY_STB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.TeacTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.TechnikaTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Thomson_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.TelStarSTB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Telefunken" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Toshiba2011_12" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Sanyo" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Vizio" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Sansui" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.SeikiTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Hitachi" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.BroksonicTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.BekoTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.BBK" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.BGH" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Bahun_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.BlaupunktTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.BushTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ColbyTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Comcast_STB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Continental" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.CondorTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.DenonTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Dell" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.DickSmith_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.ILO_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ISymphony" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.KoganTV_42HVAA" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.KonkaTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Kendo" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.KolinTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.FujitsuTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Prima_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Promac" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ProscanTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ScottTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.SEG_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Sinotec_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Singer" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Symphonic" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.SupraTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.VenturerTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.VeonTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.VestelTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.VideoCon" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.VideoConSTB_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.VivaxTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.VU" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.AiwaTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.AkaiTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.AlbaTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.AtlantaDTH_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Acer" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Admiral" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.AudioSonic" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.CobyTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Hisense" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Horizon_STB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.CCE_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.CelcusTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.CeleraTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ChanghongTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.ChallengerSTB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ChallengerTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.AocTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.ApexTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.ASUS" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.AtecTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Arcelik" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.AudiovoxTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.DaewooTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.DurabrandTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.DynexTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Ecco" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.EchoStar" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Elekta" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ElementTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.EmersonTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.FunaiTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.GoldStarTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.GoldMasterSTB_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.GrundigTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.HaierTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.HitachiTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.HyundaiTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Humax" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.InsigniaTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.JVC_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.JensenTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.LogikTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.LoeweTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.MagnavoxTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.MascomTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.MedionSTB_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.MedionTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.MicromaxTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.MitsaiTV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.MitsubishiTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.MysteryTV_models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.NECTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.NFusionSTB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.NexusTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.NextSTB_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Nikai" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.NikoTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Noblex" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.OKI" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Onida" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Orange_STB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.OleviaTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.OrionTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.PioneerTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.PolaroidTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Polytron" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.PhilcoTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.SkyworthTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.SoniqTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.RCATV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Rubin" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.Reliance_STB" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.SonyTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.SylvaniaTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.UMC" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.VioreTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.WestingHouseTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.WharfedaleTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.Wansa" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.ZenithTV_Models" android:screenOrientation="portrait" android:theme="@style/AppTheme2"/>
+        <activity android:name="codematics.universal.tv.remote.control.ELENBERG_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.DEXP_TV" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control._FirstScreen" android:screenOrientation="portrait" android:theme="@style/AppThemeActionBar">
+            <intent-filter android:label="Universal TV Remote">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.codematics.co" android:pathPrefix="/portfolio/universal-tv-remote-control/" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:label="@string/filter_view_example_gizmos">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category."/>
+                <data android:host="codematics" android:scheme="universal tv remote control"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="codematics.universal.tv.remote.control.Info_help" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control._Consent_activity" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control._GoToRemote" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="codematics.universal.tv.remote.control._MyFavourites" android:theme="@style/DialogTheme"/>
+        <activity android:label="@string/title_activity_select_theme" android:name="codematics.universal.tv.remote.control.Select_Theme" android:screenOrientation="portrait"/>
+        <activity android:name="codematics.universal.tv.remote.control.wifiremote.WifiTv" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="codematics.universal.tv.remote.control.wifiremote.Wifi_ListTv" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="codematics.universal.tv.remote.control.wifiremote.BrowseGallery" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="codematics.universal.tv.remote.control.wifiremote.ChannelList" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="codematics.universal.tv.remote.control.wifiremote.AppsList" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-1653520825495345~7207272115"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name="codematics.vizio.remote.control.smartcast.RemoteActivity_Vizio" android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name="codematics.vizio.remote.control.smartcast.MainActivity_Vizio" android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name="codematics.vizio.remote.control.smartcast._LogoScreen_Vizio"/>
+        <activity android:name="codematics.samsung.smart.tv.remote.control._LogoScreen_Samsung"/>
+        <activity android:name="codematics.samsung.smart.tv.remote.control.RemoteActivity_Samsung" android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name="codematics.samsung.smart.tv.remote.control.MainActivity_Samsung" android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name="codematics.samsung.smart.tv.remote.control.AppsListSamsung" android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name="codematics.roku.smart.rokutvremote.tvremote.MainActivity_Roku" android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.codematics.co" android:pathPrefix="/mobile-apps/remote-control-for-ruko-devices/" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="codematics.roku.smart.rokutvremote.tvremote.RemoteActivity_Roku" android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name="codematics.roku.smart.rokutvremote.tvremote._LogoScreen"/>
+        <activity android:name="codematics.roku.smart.rokutvremote.tvremote.AppsListRoku"/>
+        <activity android:name="codematics.android.smarttv.wifi.remote.tvremote.activities.RemoteActivity_Android" android:theme="@style/AppTheme.NoActionBar"/>
+        <service android:exported="true" android:name="codematics.android.smarttv.wifi.remote.tvremote.androidauth.OnWifiChangedService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="codematics.android.smarttv.wifi.remote.tvremote.androidauth.WifiStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="codematics.android.smarttv.wifi.remote.tvremote.androidauth.ClientListenerService"/>
+        <activity android:exported="true" android:name="codematics.android.smarttv.wifi.remote.tvremote.activities.DialogUnderstant"/>
+        <activity android:name="codematics.wifi.sony.remote.activities.RemoteActivity_Sony"/>
+        <activity android:name="codematics.wifi.sony.remote.activities.BrowseGallerySony" android:theme="@style/AppTheme"/>
+        <activity android:name="codematics.wifi.sony.remote.activities.ChannelList" android:theme="@style/AppTheme"/>
+        <activity android:name="codematics.wifi.sony.remote.activities.AppsListSony" android:theme="@style/AppTheme"/>
+        <service android:exported="true" android:name="codematics.wifi.sony.remote.androidauth.OnWifiChangedService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="codematics.wifi.sony.remote.androidauth.WifiStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="codematics.wifi.sony.remote.androidauth.ClientListenerService"/>
+        <activity android:name="codematics.official.myratingview.OneScreenActivity" android:theme="@style/AppTheme_RatingSystem"/>
+        <activity android:name="codematics.official.myratingview.InAppActivity" android:theme="@style/mydialog"/>
+        <activity android:name="codematics.official.myratingview.Info_help" android:theme="@style/AppTheme_RatingSystem"/>
+        <service android:exported="true" android:name="codematics.official.myratingview.FirebaseFolder.FirebaseMssageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="3.0.2"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="11000"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="codematics.universal.tv.remote.control.demo.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
+        <provider android:authorities="codematics.universal.tv.remote.control.demo.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="codematics.universal.tv.remote.control.demo.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" android:name="androidx.work.impl.WorkManagerInitializer"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="codematics.universal.tv.remote.control.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="6"/>
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
+         <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+    </application>
+</manifest>

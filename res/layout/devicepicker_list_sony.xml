@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/action_bar_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/resource_listview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:scrollbarSize="2.0dip" android:textSize="22.0sp" android:textColor="@color/gotoremote_color_list_text_black" android:gravity="center" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/resource_list" />
+        <TextView android:textColor="@color/background_white" android:id="@id/device_services" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/divider" android:background="@color/gotoremote_color_list_text_black" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+</LinearLayout>

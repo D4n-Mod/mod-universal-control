@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">三星电视遥控器</string>
+    <string name="header_main_upnp_sam">三星遥控器</string>
+    <string name="header_main_xml_sam">搜寻三星Tizen TV</string>
+    <string name="message_wifi_upnp_sam">请将您的手机以及三星连接到同一WiFi网络，然后重新启动该应用</string>
+    <string name="message_wifi_xml_sam">请将您的三星电视和手机连接到同一Wifi网络</string>
+    <string name="progress_dialog_message">请允许与您的电视遥控器连接（仅要求首次）</string>
+    <string name="progress_dialog_title">与三星智能电视（TizenOS）连接</string>
+</resources>

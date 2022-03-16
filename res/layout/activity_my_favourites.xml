@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?gotoremote_color_text_back" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/myfavourite" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView4" android:background="?gotoremote_color_toptext" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="25.0dip" android:textStyle="bold" android:textColor="?gotoremote_color_toptext" android:gravity="center" android:layout_gravity="center" android:id="@id/textView3" android:background="?gotoremote_color_text_back" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:layout_width="fill_parent" android:layout_height="80.0dip" android:text="@string/my_tv" android:layout_below="@id/textView4" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <TextView android:background="?gotoremote_color_toptext" android:layout_width="0.5dip" android:layout_height="82.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="false" />
+        <TextView android:background="?gotoremote_color_toptext" android:layout_width="0.5dip" android:layout_height="82.0dip" />
+        <TextView android:id="@id/textView8" android:background="?gotoremote_color_toptext" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/textView3" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_listview" android:background="?gotoremote_color_toptext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/myfavourite">
+        <ListView android:id="@id/list_view_favourites" android:background="?gotoremote_color_back" android:paddingLeft="0.5dip" android:paddingTop="0.5dip" android:paddingRight="0.5dip" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginLeft="0.5dip" android:layout_marginRight="0.5dip" android:layout_centerVertical="true" android:layout_marginStart="0.5dip" android:layout_marginEnd="0.5dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/textview_myfavourite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_listview" android:layout_alignParentLeft="false" android:layout_alignParentTop="false" android:layout_alignParentStart="false">
+        <TextView android:textColor="?gotoremote_color_text_back" android:id="@id/textView6" android:background="?gotoremote_color_toptext" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:scrollbarSize="1.0dip" android:textSize="20.0sp" android:textColor="?gotoremote_color_toptext" android:gravity="center" android:layout_gravity="center" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:src="?resource_list" android:layout_centerInParent="true" />
+        <TextView android:background="?gotoremote_color_toptext" android:layout_width="0.5dip" android:layout_height="52.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="false" />
+        <TextView android:background="?gotoremote_color_toptext" android:layout_width="0.5dip" android:layout_height="52.0dip" />
+    </RelativeLayout>
+    <TextView android:id="@id/textView7" android:background="?gotoremote_color_toptext" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/textview_myfavourite" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>notification_title</key>
+        <value>Top Universal App</value>
+    </entry>
+    <entry>
+        <key>notification_description</key>
+        <value>Watch TV. Don't miss the awesome episode of Friends</value>
+    </entry>
+    <entry>
+        <key>notification_yes</key>
+        <value>Yes</value>
+    </entry>
+    <entry>
+        <key>notification_no</key>
+        <value>Maybe Later</value>
+    </entry>
+    <entry>
+        <key>notification_hour</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>notification_minute</key>
+        <value>25</value>
+    </entry>
+</defaultsMap>

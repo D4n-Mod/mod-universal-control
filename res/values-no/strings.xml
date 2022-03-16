@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SAMSUNG-TV fjernkontroll</string>
+    <string name="header_main_upnp_sam">SAMSUNG fjernkontroll</string>
+    <string name="header_main_xml_sam">Søker etter SAMSUNG Tizen TV</string>
+    <string name="message_wifi_upnp_sam">Vennligst koble mobilen din samt SAMSUNG til samme WiFi-nettverk og start appen på nytt</string>
+    <string name="message_wifi_xml_sam">Koble SAMSUNG TV og mobiltelefonen til det samme Wifi-nettverket</string>
+    <string name="progress_dialog_message">Tillat tilkoblingen til TV-fjernkontrollen din (kun påkrevd første gang)</string>
+    <string name="progress_dialog_title">Koble til SAMSUNG Smart TV (TizenOS)</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?my_favlist_main_back" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="?resource_listview" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:scrollbarSize="2.0dip" android:textSize="22.0sp" android:textColor="?gotoremote_color_list_text" android:gravity="center" android:id="@id/itemTitle" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:src="?resource_list" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?gotoremote_color_list_text" android:layout_gravity="right" android:id="@id/itemNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?gotoremote_color_list_text" android:id="@id/itemSubTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subtitle" />
+    <TextView android:textStyle="bold" android:id="@id/divider" android:background="?gotoremote_color_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/itemNumber" />
+</LinearLayout>

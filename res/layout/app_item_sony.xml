@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/resource_listview" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/itemCheck" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:scrollbarSize="2.0dip" android:textSize="18.0sp" android:textColor="@color/gotoremote_color_list_text_black" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/itemTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@id/divider" android:background="@color/gotoremote_color_divider_black" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tab_icons">
+        <item>@drawable/icon_15307</item>
+        <item>@drawable/icon_12676</item>
+        <item>@drawable/icon_3330</item>
+        <item>@drawable/icon_17114</item>
+        <item>@drawable/icon_15111</item>
+        <item>@drawable/icon_17183</item>
+    </array>
+    <string-array name="tab_titles">
+        <item>Media</item>
+        <item>Web App</item>
+        <item>Control</item>
+        <item>Apps</item>
+        <item>TV</item>
+        <item>System</item>
+    </string-array>
+</resources>

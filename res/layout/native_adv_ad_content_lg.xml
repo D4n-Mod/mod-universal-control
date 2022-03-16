@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeContentAdView android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/oval_adbackground_yellow" android:paddingLeft="5.0dip" android:paddingTop="8.0dip" android:paddingRight="5.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:paddingStart="5.0dip" android:paddingEnd="5.0dip">
+        <RelativeLayout android:layout_gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.55">
+            <ImageView android:layout_gravity="left" android:id="@id/contentad_image_lg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="top" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="0.45" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_black_theme" android:id="@id/contentad_body_lg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxLines="2" android:layout_alignParentTop="true" />
+            <ImageView android:id="@id/contentad_logo_lg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/contentad_body_lg" android:layout_alignParentLeft="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/text_black_theme" android:gravity="center" android:id="@id/contentad_call_to_action_lg" android:background="@drawable/oval_button" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.NativeContentAdView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/pairing" android:background="#fffffefe" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffcac9c9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/pairing_text" android:background="#ff303030" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/pairing_explanation" android:layout_alignParentTop="true" android:layout_centerInParent="true" android:paddingStart="10.0dip" />
+        <EditText android:textColor="#ff000000" android:gravity="center" android:id="@id/pairing_pin" android:background="#ffffffff" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:hint="@string/pairing_pin_hint" android:layout_below="@id/pairing_text">
+            <requestFocus />
+        </EditText>
+        <View android:id="@id/edit_line" android:background="#fffffefe" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_below="@id/pairing_pin" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/edit_line" android:layout_centerHorizontal="true">
+            <Button android:textColor="#ffffffff" android:id="@id/pairing_cancel" android:background="#ff303030" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pairing_cancel" android:singleLine="true" android:layout_marginEnd="10.0dip" />
+            <Button android:textColor="#ffffffff" android:id="@id/pairing_ok" android:background="#ff303030" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pairing_pair" android:singleLine="true" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?my_theme_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/buttonConnect" android:background="?resource_connect" android:layout_width="60.0dip" android:layout_height="64.0dip" android:layout_marginLeft="30.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="30.0dip" android:layout_alignParentStart="true" />
+            <Button android:id="@id/powerOnOff" android:background="?resource_on_off" android:layout_width="90.0dip" android:layout_height="94.0dip" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/mute" android:layout_width="60.0dip" android:layout_height="64.0dip" android:layout_marginRight="30.0dip" android:button="?resource_mute" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/llbar3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:layout_gravity="center" android:id="@id/browse_gallery" android:background="?resource_gallery" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+                    <Button android:layout_gravity="center" android:id="@id/all_apps" android:background="?resource_apps" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" />
+                    <Button android:id="@id/buttonHome" android:background="?resource_home" android:layout_width="60.0dip" android:layout_height="64.0dip" android:layout_marginLeft="5.0dip" />
+                    <Button android:id="@id/all_channels" android:background="?resource_channels" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" />
+                    <Button android:layout_gravity="center" android:id="@id/btn_mouse" android:background="?resource_mouse" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" />
+                </LinearLayout>
+                <RelativeLayout android:orientation="horizontal" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="250.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_left" android:layout_width="59.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <Button android:layout_gravity="center" android:id="@id/volume_UP" android:background="?resource_volume_up" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textColor="?remote_screen_color_text" android:gravity="center" android:id="@id/textView_vol" android:background="?volume" android:layout_width="59.0dip" android:layout_height="75.0dip" android:text="@string/VOL" />
+                        <Button android:layout_gravity="center" android:id="@id/volume_DOWN" android:background="?resource_volume_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_dialpad" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <Button android:id="@id/button1" android:text="1" style="?number_wifi_button_style" />
+                            <Button android:id="@id/button2" android:text="2" style="?number_wifi_button_style" />
+                            <Button android:id="@id/button3" android:text="3" style="?number_wifi_button_style" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:id="@id/button4" android:text="4" style="?number_wifi_button_style" />
+                            <Button android:id="@id/button5" android:text="5" style="?number_wifi_button_style" />
+                            <Button android:id="@id/button6" android:text="6" style="?number_wifi_button_style" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:id="@id/button7" android:text="7" style="?number_wifi_button_style" />
+                            <Button android:id="@id/button8" android:text="8" style="?number_wifi_button_style" />
+                            <Button android:id="@id/button9" android:text="9" style="?number_wifi_button_style" />
+                        </LinearLayout>
+                        <Button android:id="@id/button0" android:text="0" style="?number_wifi_button_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_circle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/Ok_left" android:background="?resource_arrowleft" android:layout_width="50.0dip" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <Button android:id="@id/Ok_Up" android:background="?resource_arrowup" android:layout_width="75.0dip" android:layout_height="50.0dip" />
+                            <Button android:textSize="16.0sp" android:textColor="?remote_screen_color_text" android:layout_gravity="center" android:id="@id/Ok" android:background="?resource_ok" android:layout_width="75.0dip" android:layout_height="75.0dip" android:text="@string/OK" />
+                            <Button android:id="@id/OK_Down" android:background="?resource_arrowdown" android:layout_width="75.0dip" android:layout_height="50.0dip" />
+                        </LinearLayout>
+                        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/Ok_right" android:background="?resource_arrowright" android:layout_width="50.0dip" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <RelativeLayout android:layout_gravity="center" android:id="@id/ll_mouse" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+                        <Button android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/openKeyboardButton" android:layout_width="50.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:text="@string/Click" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                        <EditText android:textColor="@android:color/transparent" android:id="@id/editField" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="text" />
+                        <RelativeLayout android:id="@id/trackpadView" android:background="?resource_mousepad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        <Button android:layout_gravity="bottom" android:id="@id/clickButton" android:background="?resource_click" android:layout_width="129.0dip" android:layout_height="68.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_right" android:layout_width="59.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <Button android:layout_gravity="center" android:id="@id/channel_UP" android:background="?resource_volume_up" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textColor="?remote_screen_color_text" android:gravity="center" android:id="@id/textView_ch" android:background="?channel" android:layout_width="59.0dip" android:layout_height="75.0dip" android:text="@string/CH" />
+                        <Button android:layout_gravity="center" android:id="@id/channel_DOWN" android:background="?resource_volume_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_bar2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:layout_gravity="center" android:id="@id/back_Button" android:background="?resource_back" android:padding="9.0dip" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <Button android:layout_gravity="center" android:id="@id/btn_dialpad2" android:background="?resource_0_9" android:padding="9.0dip" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <Button android:layout_gravity="center" android:id="@id/buttonInput" android:background="?resource_input" android:padding="9.0dip" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/below_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <Button android:id="@id/freverse" android:background="?resource_freverse" android:layout_width="65.0dip" android:layout_height="70.0dip" />
+            <Button android:id="@id/previous" android:background="?resource_reverse" android:layout_width="65.0dip" android:layout_height="70.0dip" />
+            <Button android:id="@id/play_Button" android:background="?resource_play" android:layout_width="65.0dip" android:layout_height="70.0dip" />
+            <Button android:id="@id/next" android:background="?resource_forward" android:layout_width="65.0dip" android:layout_height="70.0dip" />
+            <Button android:id="@id/fforward" android:background="?resource_fforward" android:layout_width="65.0dip" android:layout_height="70.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/adsContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.gms.ads.AdView android:id="@id/adViewWifi" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_id_wifi" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/adaptivebanner_container_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

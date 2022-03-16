@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/no_wifi_error_overlay" android:background="#9b000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="50.0dip" android:layout_marginStart="23.0dip" android:layout_marginEnd="23.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/no_wifi_error_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="WiFi is OFF" android:layout_below="@id/no_wifi_error_icon" android:layout_centerInParent="true" android:textAllCaps="false" />
+        <Button android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/no_wifi_error_button" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+        <ImageView android:id="@id/no_wifi_error_icon" android:background="@drawable/ic_signal_wifi_off_android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:id="@id/no_devices_error_overlay" android:background="#bb000000" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_margin="23.0dip" android:layout_marginBottom="15.0dip">
+        <TextView android:textColor="#ffffffff" android:id="@id/no_devices_error_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/no_devices_progress" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/no_devices_error_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/no_devices_progress" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/no_devices_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="23.0dip" android:paddingEnd="23.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title_tv" android:background="#ff263238" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/select_android_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ListView android:id="@id/hubs" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="1.0dip" android:layout_below="@id/title_tv" />
+    </RelativeLayout>
+</FrameLayout>

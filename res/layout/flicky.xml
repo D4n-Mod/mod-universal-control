@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/close_flicky" android:background="@mipmap/close_flicky" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_alignTop="@id/flickyad_ll" android:layout_marginEnd="-1.7999878dip" android:layout_alignEnd="@id/flickyad_ll" />
+    <LinearLayout android:orientation="vertical" android:id="@id/flickyad_ll" android:background="#ff8e8e8e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <Button android:textColor="@color/text_black_theme" android:id="@id/play_flicky" android:background="@drawable/flicky_playbutton" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Play NOW" android:layout_below="@id/flickyad_ll" android:layout_centerHorizontal="true" />
+</RelativeLayout>

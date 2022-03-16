@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <string name="ga_trackingId">UA-58896135-4</string>
+    <string name="ga_sampleFrequency">100.0</string>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <screenName name="codematics.universal.tv.remote.control._FirstScreen">Home Screen</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Select_Theme">Select Theme Screen</screenName>
+    <screenName name="codematics.universal.tv.remote.control._GoToRemote">TV Brands Screen</screenName>
+    <screenName name="codematics.universal.tv.remote.control.SamsungTV">Samsung</screenName>
+    <screenName name="codematics.universal.tv.remote.control.LG_TV">LG</screenName>
+    <screenName name="codematics.universal.tv.remote.control.SHARP_TV">Sharp</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Panasonic_TV">Panasonic</screenName>
+    <screenName name="codematics.universal.tv.remote.control.PHILIPS_TV">Philips</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Toshiba2011_12">Toshiba</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Sanyo">Sanyo</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Vizio">Vizio</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Sansui">Sansui</screenName>
+    <screenName name="codematics.universal.tv.remote.control.SeikiTV">Seiki</screenName>
+    <screenName name="codematics.universal.tv.remote.control.Magnavox2">Magnavox</screenName>
+    <screenName name="codematics.universal.tv.remote.control.BroksonicTV">Broksonic</screenName>
+    <screenName name="codematics.universal.tv.remote.control.BekoTV">Beko</screenName>
+    <screenName name="codematics.universal.tv.remote.control.BlaupunktTV">Blaupunkt</screenName>
+    <screenName name="codematics.universal.tv.remote.control.BushTV">Bush</screenName>
+    <screenName name="codematics.universal.tv.remote.control.ColbyTV">Colby</screenName>
+    <screenName name="codematics.universal.tv.remote.control.DenonTV">Denon</screenName>
+    <screenName name="codematics.universal.tv.remote.control.ILO_TV">ILO</screenName>
+    <screenName name="codematics.universal.tv.remote.control.KoganTV_42HVAA">Kogan</screenName>
+    <screenName name="codematics.universal.tv.remote.control.KonkaTV">Konka</screenName>
+    <screenName name="codematics.universal.tv.remote.control.FujitsuTV">Fujitsu</screenName>
+    <screenName name="codematics.universal.tv.remote.control.ProscanTV">Proscan</screenName>
+    <screenName name="codematics.universal.tv.remote.control.ScottTV">Scott</screenName>
+    <screenName name="codematics.universal.tv.remote.control.VenturerTV">Venturer</screenName>
+    <screenName name="codematics.universal.tv.remote.control.VestelTV">Vestel</screenName>
+    <screenName name="codematics.universal.tv.remote.control.ZenithP42W24">Zenith</screenName>
+</resources>

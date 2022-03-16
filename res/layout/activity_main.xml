@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:background="#ff131313" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/tab_layout" android:background="#ff263238" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" ads:tabIndicatorColor="#fff7d706" ads:tabIndicatorHeight="3.0dip" ads:tabMode="scrollable" ads:tabSelectedTextColor="#fff7d706" ads:tabTextColor="#fffef89c" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adsContainer_multi_remotes" android:layout_below="@id/tab_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/adsContainer_multi_remotes" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/fl_adplaceholder_multi_remotes" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/adaptivebanner_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/banner_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

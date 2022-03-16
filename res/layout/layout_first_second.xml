@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="#ffa5a4a4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff1f1e1d" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/layout_first_second_text" />
+            <CheckBox android:id="@id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/layout_first_second_tv_not_available" />
+            <EditText android:textSize="14.0sp" android:gravity="top" android:id="@id/edittext_checkbox1" android:background="#ffe9e9e9" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:hint="@string/layout_first_second_tv_not_available_hint" android:cursorVisible="true" />
+            <CheckBox android:id="@id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/layout_first_second__requirements" />
+            <Button android:id="@id/button_requirement_checkbox2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/layout_first_second__requirements_button" />
+            <CheckBox android:id="@id/checkBox3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/layout_first_second_ir_unavailable" />
+            <TextView android:enabled="true" android:id="@id/text_checkbox3" android:background="#ffe9e9e9" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/layout_first_second_ir_explained" />
+            <CheckBox android:id="@id/checkBox4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/layout_first_second_other" />
+            <EditText android:textSize="14.0sp" android:gravity="top" android:id="@id/edittext_other" android:background="#ffe9e9e9" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:hint="@string/layout_first_second_other_explained" />
+        </LinearLayout>
+        <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/btnSubmit" android:background="@drawable/oval_button_yellow_rating_system" android:layout_width="180.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/layout_first_second_submit" />
+    </LinearLayout>
+</LinearLayout>
